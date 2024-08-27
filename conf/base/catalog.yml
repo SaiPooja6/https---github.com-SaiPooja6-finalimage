@@ -1,0 +1,15 @@
+original_image:
+  type: kedro_datasets.pillow.ImageDataset
+  filepath: data/01_raw/colored_image.png
+
+converted_image1:
+  type: kedro_datasets.pillow.ImageDataset
+  filepath: data/02_intermediate/resized_image.png
+
+converted_image2:
+  type: kedro_datasets.pillow.ImageDataset
+  filepath: data/03_primary/grayscale_image.png
+
+converted_image3:
+  type: kedro_datasets.pillow.ImageDataset
+  filepath: data/04_feature/grayscaletexted_image.png  
