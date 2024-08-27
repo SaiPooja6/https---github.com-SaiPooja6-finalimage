@@ -8,8 +8,8 @@ converted_image1:
 
 converted_image2:
   type: kedro_datasets.pillow.ImageDataset
-  filepath: data/03_primary/grayscale_image.png
+  filepath: data/02_intermediate/grayscaled_image.png
 
 converted_image3:
   type: kedro_datasets.pillow.ImageDataset
-  filepath: data/04_feature/grayscaletexted_image.png  
+  filepath: data/02_intermediate/grayscaletexted_image.png
